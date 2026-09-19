@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caching and testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Databases and Vector Stores
+assess.db
+*.sqlite
+*.sqlite3
+chroma_db/
+chroma_data/
+
+# Uploaded student submissions
+uploads/*
+!uploads/.gitkeep
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
