@@ -19,7 +19,7 @@ venv/
 ENV/
 
 # Databases and Vector Stores
-assess.db
+*.db
 *.sqlite
 *.sqlite3
 chroma_db/
